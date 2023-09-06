@@ -4,7 +4,7 @@ import os
 from diffusers import StableDiffusionInpaintPipeline
 
 
-model_id = "stabilityai/stable-diffusion-2-inpainting"
+model_id = "SG161222/Realistic_Vision_V5.1_noVAE"
 MODEL_CACHE = "diffusers-cache"
 os.makedirs(MODEL_CACHE, exist_ok=True)
 
